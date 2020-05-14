@@ -59,7 +59,7 @@ app.get('/luckynumber',function(red,res){
 	
 });
 
-app.listen(3000,function(){
+// app.listen(3000,function(){
 	
-	console.log("server running on 3000");
-});
+// 	console.log("server running on 3000");
+// });
