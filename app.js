@@ -47,19 +47,19 @@ console.log("post request sent "+ req.body.email);
 
 
 
-app.get('/jokes',function(red,res){
-	res.send("A family of mice were surprised by a big cat. Father Mouse jumped and and said, 'Bow-wow!' The cat ran away. 'What was that, Father?' asked Baby Mouse. 'Well, son, that's why it's important to learn a second language");
-	console.log("someone requested for jokes");
+// app.get('/jokes',function(red,res){
+// 	res.send("A family of mice were surprised by a big cat. Father Mouse jumped and and said, 'Bow-wow!' The cat ran away. 'What was that, Father?' asked Baby Mouse. 'Well, son, that's why it's important to learn a second language");
+// 	console.log("someone requested for jokes");
 	
-});
-app.get('/luckynumber',function(red,res){
-	var num = Math.floor((Math.random() * 10) + 1);
-	res.send("your lucky number "+ num);
-	console.log("someone requested for homepage");
+// });
+// app.get('/luckynumber',function(red,res){
+// 	var num = Math.floor((Math.random() * 10) + 1);
+// 	res.send("your lucky number "+ num);
+// 	console.log("someone requested for homepage");
 	
-});
+// });
 
-app.listen(80,function(){
+// app.listen(80,function(){
 	
-	console.log("server running on 80");
-});
+// 	console.log("server running on 80");
+// });
