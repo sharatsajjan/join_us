@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
  
 
-app.get("/", function(req, res){
+app.get("/sharat", function(req, res){
  var q = 'SELECT COUNT(*) as count FROM users';
  connection.query(q, function (error, results) {
  if (error) throw error;
@@ -59,7 +59,7 @@ console.log("post request sent "+ req.body.email);
 	
 // });
 
-// app.listen(80,function(){
+app.listen(8081,function(){
 	
-// 	console.log("server running on 80");
-// });
+	console.log("server running on 8081");
+});
